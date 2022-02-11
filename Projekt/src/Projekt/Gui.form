@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Projekt.Gui">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="5" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="10" right="200"/>
+    <constraints>
+      <xy x="20" y="20" width="617" height="384"/>
+    </constraints>
+    <properties>
+      <minimumSize width="600" height="184"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="db93c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="36" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Nazwa"/>
+        </properties>
+      </component>
+      <component id="7dcef" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Frakcja"/>
+        </properties>
+      </component>
+      <component id="46ce5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Typ"/>
+        </properties>
+      </component>
+      <component id="b8edf" class="javax.swing.JLabel" binding="Naglowek">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Generator postaci"/>
+        </properties>
+      </component>
+      <component id="cb618" class="javax.swing.JTextArea" binding="nazwa">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="77a4f" class="javax.swing.JButton" binding="generujPostacButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Generuj Postac"/>
+        </properties>
+      </component>
+      <component id="f1174" class="javax.swing.JComboBox" binding="frakcja">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+        </properties>
+      </component>
+      <component id="182c1" class="javax.swing.JComboBox" binding="typ">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3de6d" class="javax.swing.JButton" binding="pokazStatystykiButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pokaz Statystyki"/>
+        </properties>
+      </component>
+      <component id="3707a" class="javax.swing.JButton" binding="walkaButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Walka"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
